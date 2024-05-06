@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "141082227796",
+    "firebase_url": "https://adulting101-b1792-default-rtdb.firebaseio.com",
+    "project_id": "adulting101-b1792",
+    "storage_bucket": "adulting101-b1792.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141082227796:android:1c83adb7a7c65e7b6ce9c1",
+        "android_client_info": {
+          "package_name": "com.example.adulting101"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv5uf8za47bNkR6SibL1UM5JyRXzpjiok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
