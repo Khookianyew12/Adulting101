@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Adulting101</string>
+    <string name="select_category_prompt">Select Category</string>
+    <string name="enter_title_hint">Enter Title</string>
+    <string name="enter_description_hint">Enter Description</string>
+    <string name="select_video_button_label">Select Video</string>
+    <string name="save_button_label">Save</string>
+    <string name="video_icon_description" />
+    <string name="Delete_Content">Delete Content</string>
+    <string name="Delete_Content_msg">Are You Sure Want Delete Content</string>
+    <string name="Yes_msg">Yes</string>
 </resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Sub Course"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <VideoView
+        android:id="@+id/video_main"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_below="@id/header_text"
+        android:layout_marginBottom="16dp" />
+
+    <Spinner
+        android:id="@+id/category_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/video_main"
+        android:layout_marginTop="47dp" />
+
+    <EditText
+        android:id="@+id/category_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/category_spinner"
+        android:layout_marginTop="21dp"
+        android:hint="Sub Category" />
+
+    <EditText
+        android:id="@+id/title_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category_edit_text"
+        android:layout_marginTop="16dp"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/description_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_edit_text"
+        android:layout_marginTop="16dp"
+        android:hint="Description" />
+
+    <Button
+        android:id="@+id/select_video_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description_edit_text"
+        android:layout_marginTop="16dp"
+        android:text="Select Video" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_video_button"
+        android:layout_marginTop="16dp"
+        android:text="Save" />
+
+</RelativeLayout>
